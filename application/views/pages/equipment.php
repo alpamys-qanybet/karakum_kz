@@ -61,17 +61,17 @@
 			</div>
 		</div>
 		<div class="row margin-bottom-60" ng-repeat="item in items">
-			<div class="col-md-{{item.left}}" ng-if="$even">
+			<div class="col-lg-{{item.left}} col-md-{{item.left}} col-sm-{{item.left}}" ng-if="$even">
 				<div ng-include="'img'"></div>
 			</div>
-			<div class="col-md-{{item.right}}" ng-if="$even">
+			<div class="col-lg-{{item.right}} col-md-{{item.right}} col-sm-{{item.right}}" ng-if="$even">
 				<div ng-include="'content'"></div>
 			</div>
 
-			<div class="col-md-{{item.right}}" ng-if="$odd">
+			<div class="col-lg-{{item.right}} col-md-{{item.right}} col-sm-{{item.right}}" ng-if="$odd">
 				<div ng-include="'content'"></div>
 			</div>
-			<div class="col-md-{{item.left}}" ng-if="$odd">
+			<div class="col-lg-{{item.left}} col-md-{{item.left}} col-sm-{{item.left}}" ng-if="$odd">
 				<div ng-include="'img'"></div>
 			</div>
 		</div>

@@ -1,7 +1,7 @@
 <div ng-controller="PageContactCtrl">
 	<div class="container /*content-md*/">
 		<div class="row margin-bottom-20">
-			<div class="col-md-12">
+			<div class="col-lg-12 col-md-12 col-sm-12">
 				<div class="heading /*heading-v1*/ margin-bottom-15">
 					<h2 ng-cloak>{{'page.contact.name' | i18next}}</h2>
 				</div>
@@ -9,7 +9,7 @@
 		</div>
 
 		<div class="row margin-bottom-60">
-			<div class="col-md-8">
+			<div class="col-lg-8 col-md-8 col-sm-8">
 				<div class="margin-bottom-15">
 					<h3 ng-cloak>{{'page.contact.title' | i18next}}</h3>
 				</div>
@@ -90,7 +90,7 @@
   	            </script>
           	</div>
 
-			<div class="col-md-4">
+			<div class="col-lg-4 col-md-4 col-sm-4">
 				<div><img class="img-responsive" style="margin-top: 8px;" src="<?php echo base_url('static/img/cont.jpg'); ?>"/></div>
 			</div>
 		</div>

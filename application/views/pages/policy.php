@@ -15,11 +15,11 @@
 				</div>
 			</div-->
 
-			<div class="col-md-3">
+			<div class="col-lg-3 col-md-3 col-sm-3">
 				<div><img class="img-responsive" src="<?php echo base_url('static/img/eq3.jpg'); ?>"/></div>
 			</div>
 
-			<div class="col-md-9">
+			<div class="col-lg-9 col-md-9 col-sm-9">
 				<div class="heading /*heading-v1*/ margin-bottom-10">
 					<h2 ng-cloak>{{'page.policy.title' | i18next}}</h2>
 				</div>
@@ -41,7 +41,7 @@
 	<!--=== Twitter-Block ===-->
 	<div class="parallaxBg twitter-block twitter-blockmyimg  margin-bottom-30" style="color: white">
 		<div class="container">
-			<div class="col-md-8">
+			<div class="col-lg-8 col-md-8 col-sm-8">
 				<div class="heading /*heading-v1*/ margin-bottom-10" style="-webkit-filter: brightness(100%); color: white">
 						<h2 ng-cloak>{{'page.policy.1' | i18next}}</h2>
 				</div>
@@ -53,7 +53,7 @@
 
 	<div class="container /*content-md*/">
 		<div class="row margin-bottom-60">
-			<div class="col-md-8">
+			<div class="col-lg-8 col-md-8 col-sm-8">
 				<div class="heading /*heading-v1*/ margin-bottom-10">
 					<h2 ng-cloak>{{'page.policy.3' | i18next}}</h2>
 				</div>
@@ -73,7 +73,7 @@
 				</ol>
 			</div>
 
-			<div class="col-md-4">
+			<div class="col-lg-4 col-md-4 col-sm-4">
 				<div><img class="img-responsive" src="<?php echo base_url('static/img/pol0.jpg'); ?>"/></div>
 			</div>
 		</div>
@@ -103,7 +103,7 @@
 		</div-->
 		<div class="container">
 			<div class="row">
-				<div class="col-md-12">
+				<div class="col-lg-12 col-md-12 col-sm-12">
 					<div class="heading /*heading-v1*/ margin-bottom-10">
 						<h2 ng-cloak>{{'page.policy.principle.title' | i18next}}</h2>
 					</div>
@@ -120,10 +120,10 @@
 
 	<div class="container /*content-md*/">
 		<div class="row margin-bottom-60">
-			<div class="col-md-4">
+			<div class="col-lg-4 col-md-4 col-sm-4">
 				<div><img class="img-responsive" src="<?php echo base_url('static/img/pol1.jpg'); ?>"/></div>
 			</div>
-			<div class="col-md-8">
+			<div class="col-lg-8 col-md-8 col-sm-8">
 				<div class="heading /*heading-v1*/ margin-bottom-10">
 					<h2 ng-cloak>{{'page.policy.staffmanage.title' | i18next}}</h2>
 				</div>
@@ -134,7 +134,7 @@
 		</div>
 
 		<div class="row margin-bottom-30">
-			<div class="col-md-8">
+			<div class="col-lg-8 col-md-8 col-sm-8">
 				<div class="heading /*heading-v1*/ margin-bottom-10">
 					<h2 ng-cloak>{{'page.policy.impgoal.title' | i18next}}</h2>
 				</div>
@@ -143,7 +143,7 @@
 				<div class="margin-bottom-15" ng-cloak>{{'page.policy.impgoal.2' | i18next}}</div>
 			</div>
 
-			<div class="col-md-4">
+			<div class="col-lg-4 col-md-4 col-sm-4">
 				<div><img class="img-responsive" src="<?php echo base_url('static/img/pol2.jpg'); ?>"/></div>
 			</div>
 		</div>
