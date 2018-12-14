@@ -77,7 +77,14 @@
 <!--script type="text/javascript" src="<?php #echo base_url('static/lib/owl-carousel/owl.carousel.min.js'); ?>"></script-->
 <!-- <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script> -->
 <!-- <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script> -->
-<script type="text/javascript" src="<?php echo base_url('static/lib/slick-1.8.1/slick/slick.min.js'); ?>"></script>
+<!-- <script type="text/javascript" src="<?php #echo base_url('static/lib/slick-1.8.1/slick/slick.min.js'); ?>"></script> -->
+
+<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script> -->
+<!-- script type="text/javascript" src="<?php #echo base_url('static/lib/bxslider-4-4.2.12/jquery.bxslider.min.js'); ?>"></script-->
+
+<!-- script type="text/javascript" src="<?php #echo base_url('static/lib/light-slider/js/lightslider.js'); ?>"></script-->
+
+<script type="text/javascript" src="<?php echo base_url('static/lib/flex-slider/jquery.flexslider-min.js'); ?>"></script>
 
 <!-- Add fancyBox main JS and CSS files -->
 <script type="text/javascript" src="<?php echo base_url('static/lib/fancybox/jquery.fancybox.js?v=2.1.5'); ?>"></script>
@@ -126,88 +133,56 @@
 			}
 		});
 
-		// $('.owl-carousel').owlCarousel({
-		//     loop:true,
-		//     margin:10,
-		//     nav:true,
-		//     responsive:{
-		//         0:{
-		//             items:1
-		//         },
-		//         600:{
-		//             items:3
-		//         },
-		//         1000:{
-		//             items:5
-		//         }
-		//     }
-		// });
-		// $('.owl-carousel').owlCarousel({
-		//     items:4,
-		//     lazyLoad:true,
-		//     loop:true,
-		//     margin:10
+		// $('.alp-slick-class').slick({
+		// 	dots: false,
+
+		// 	infinite: true,
+		// 	// speed: 500,
+
+		// 	autoplay: true,
+  // 			autoplaySpeed: 1000 * 2.3,
+
+  // 			centerMode: true,
+
+		// 	fade: true,
+		// 	cssEase: 'linear'
 		// });
 
-		// $('.owl-carousel').owlCarousel({
-		//     items:1,
-		//    	loop:true,
-		//     lazyLoad:true,
-		//     margin:0,
-		//     autoplay:true,
-		//     autoplayTimeout:1000 * 3.7,
-		//     autoplayHoverPause:true,
-		//     animateOut: 'fadeOut',
+		// $('.alp-bxslider-class').bxSlider({
+		// 	mode: 'fade',
+		// 	captions: true,
+		// 	pager: true,
+  // 			slideWidth: screen.width,
 		// });
 
-		// $("#owl-demo").owlCarousel({
- 
-		// 	// navigation : true, // Show next and prev buttons
-		// 	// slideSpeed : 300,
-		// 	// paginationSpeed : 400,
-		// 	// lazyLoad:true,
-		// 	// // singleItem:true
+		// $('#imageGallery').lightSlider({
+		// 	auto:true,
+	 //        loop:true,
+	 //        pauseOnHover: true,
 
-		// 	// // "singleItem:true" is a shortcut for:
-		// 	// items : 1, 
-		// 	// // itemsDesktop : false,
-		// 	// // itemsDesktopSmall : false,
-		// 	// // itemsTablet: false,
-		// 	// // itemsMobile : false
+	 //        // gallery:true,
+	 //        item:1,
+	 //        // loop:true,
+	 //        // thumbItem:9,
+	 //        // slideMargin:0,
+	 //        slideWidth: screen.width,
+  //       	// enableDrag: false,
+	 //        // currentPagerPosition:'left',
+	 //        // onSliderLoad: function(el) {
+	 //        //     el.lightGallery({
+	 //        //         selector: '#imageGallery .lslide'
+	 //        //     });
+	 //        // }   
+	 //    });
 
-
-		//     items:1,
-		//    	nav : false,
-		//    	dots: false,
-		//    	loop:true,
-		//     lazyLoad:true,
-		//     margin:0,
-		//     autoplay:true,
-		//     autoplayTimeout:1000 * 3.7,
-		//     autoplayHoverPause:true,
-		//     animateOut: 'fadeOut',
-
-		// });
-
-		$('.alp-slick-class').slick({
-			dots: false,
-
-			infinite: true,
-			// speed: 500,
-
-			autoplay: true,
-  			autoplaySpeed: 1000 * 2.3,
-
-  			centerMode: true,
-
-			fade: true,
-			cssEase: 'linear'
+		$('.flexslider').flexslider({
+			animation: "fade",
+			easing: "swing",
+			animationLoop: true,
+			slideshow: true,
+			slideshowSpeed: 1000 * 2.3,
+			animationSpeed: 600,
 		});
-
-		// $(".lazy").slick({
-	 //        lazyLoad: 'ondemand', // ondemand progressive anticipated
-	 //        infinite: true
-	 //      });
 	});
 </script>
 

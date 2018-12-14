@@ -35,11 +35,17 @@
 
     <link rel="stylesheet" href="<?php echo base_url('static/assets/plugins/parallax-slider/css/parallax-slider.css'); ?>">
 
-    <!-- <link rel="stylesheet" type="text/css" href="<?php echo base_url('static/lib/owl-carousel/assets/owl.carousel.min.css'); ?>" media="screen" /> -->
-    <!-- <link rel="stylesheet" type="text/css" href="<?php echo base_url('static/lib/owl-carousel/assets/owl.theme.default.min.css'); ?>" media="screen" /> -->
+    <!-- <link rel="stylesheet" type="text/css" href="<?php #echo base_url('static/lib/owl-carousel/assets/owl.carousel.min.css'); ?>" media="screen" /> -->
+    <!-- <link rel="stylesheet" type="text/css" href="<?php #echo base_url('static/lib/owl-carousel/assets/owl.theme.default.min.css'); ?>" media="screen" /> -->
 
-    <link rel="stylesheet" type="text/css" href="<?php echo base_url('static/lib/slick-1.8.1/slick/slick.css'); ?>"/>
-    <link rel="stylesheet" type="text/css" href="<?php echo base_url('static/lib/slick-1.8.1/slick/slick-theme.css'); ?>"/>
+    <!-- <link rel="stylesheet" type="text/css" href="<?php #echo base_url('static/lib/slick-1.8.1/slick/slick.css'); ?>"/> -->
+    <!-- <link rel="stylesheet" type="text/css" href="<?php #echo base_url('static/lib/slick-1.8.1/slick/slick-theme.css'); ?>"/> -->
+
+    <!-- <link rel="stylesheet" type="text/css" href="<?php #echo base_url('static/lib/bxslider-4-4.2.12/jquery.bxslider.css'); ?>"/> -->
+
+    <!-- <link rel="stylesheet" type="text/css" href="<?php #echo base_url('static/lib/light-slider/css/lightslider.min.css'); ?>"/> -->
+
+    <link rel="stylesheet" href="<?php echo base_url('static/lib/flex-slider/flexslider.css'); ?>" type="text/css">
 
     <style>
         body {
@@ -95,9 +101,8 @@
           box-sizing: border-box;
         }*/
 
-        .slider {
+        /*.slider {
             width: 100%;
-            /*margin: 100px auto;*/
         }
 
         .slick-slide {
@@ -125,7 +130,7 @@
 
         .slick-current {
           opacity: 1;
-        }
+        }*/
     </style>
 </head>
 
@@ -252,20 +257,58 @@
       <div class="item"><img src="<?php #echo base_url('static/img/karakum-3.jpg'); ?>"></div>
     </div> -->
 
-<section class="alp-slick-class slider margin-bottom-50" data-sizes="100vw">
+<!-- <section class="alp-slick-class slider margin-bottom-50" data-sizes="100vw">
         <div>
-          <img src="<?php echo base_url('static/img/karakum-0.jpg'); ?>">
+          <img src="<?php #echo base_url('static/img/karakum-0.jpg'); ?>">
         </div>
         <div>
-          <img src="<?php echo base_url('static/img/karakum-1.jpg'); ?>">
+          <img src="<?php #echo base_url('static/img/karakum-1.jpg'); ?>">
         </div>
         <div>
-          <img src="<?php echo base_url('static/img/karakum-2.jpg'); ?>">
+          <img src="<?php #echo base_url('static/img/karakum-2.jpg'); ?>">
         </div>
         <div>
-          <img src="<?php echo base_url('static/img/karakum-3.jpg'); ?>">
+          <img src="<?php #echo base_url('static/img/karakum-3.jpg'); ?>">
         </div>
-  </section>
+  </section> -->
+
+<!-- <div class="alp-bxslider-class">
+  <div><img src="<?php #echo base_url('static/img/karakum-0.jpg'); ?>" title="Funky roots"></div>
+  <div><img src="<?php #echo base_url('static/img/karakum-1.jpg'); ?>" title="The long and winding road"></div>
+  <div><img src="<?php #echo base_url('static/img/karakum-2.jpg'); ?>" title="Happy trees"></div>
+  <div><img src="<?php #echo base_url('static/img/karakum-3.jpg'); ?>" title="Happy trees"></div>
+</div> -->
+
+<!-- <ul id="imageGallery">
+  <li data-src="<?php #echo base_url('static/img/karakum-0.jpg'); ?>">
+    <img src="<?php #echo base_url('static/img/karakum-0.jpg'); ?>" />
+  </li>
+  <li data-src="<?php #echo base_url('static/img/karakum-1.jpg'); ?>">
+    <img src="<?php #echo base_url('static/img/karakum-1.jpg'); ?>" />
+  </li>
+  <li data-src="<?php #echo base_url('static/img/karakum-2.jpg'); ?>">
+    <img src="<?php #echo base_url('static/img/karakum-2.jpg'); ?>" />
+  </li>
+  <li data-src="<?php #echo base_url('static/img/karakum-3.jpg'); ?>">
+    <img src="<?php #echo base_url('static/img/karakum-3.jpg'); ?>" />
+  </li>
+</ul> -->
+<div class="flexslider">
+  <ul class="slides">
+    <li>
+      <img src="<?php echo base_url('static/img/karakum-0.jpg'); ?>" />
+    </li>
+    <li>
+      <img src="<?php echo base_url('static/img/karakum-1.jpg'); ?>" />
+    </li>
+    <li>
+      <img src="<?php echo base_url('static/img/karakum-2.jpg'); ?>" />
+    </li>
+    <li>
+      <img src="<?php echo base_url('static/img/karakum-3.jpg'); ?>" />
+    </li>
+  </ul>
+</div>
     <!--=== End Collection Banner ===-->
 
 <!--=== Slider ===-->
