@@ -177,11 +177,13 @@
 
 		$('.flexslider').flexslider({
 			animation: "fade",
-			easing: "swing",
+			// easing: "swing",
 			animationLoop: true,
 			slideshow: true,
 			slideshowSpeed: 1000 * 2.3,
 			animationSpeed: 600,
+			pauseOnHover: true,
+			directionNav: false,
 		});
 	});
 </script>

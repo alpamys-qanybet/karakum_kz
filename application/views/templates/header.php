@@ -131,6 +131,11 @@
         .slick-current {
           opacity: 1;
         }*/
+
+        .wrapper {
+            padding: 0;
+            margin: 0;
+        }
     </style>
 </head>
 
@@ -293,21 +298,23 @@
     <img src="<?php #echo base_url('static/img/karakum-3.jpg'); ?>" />
   </li>
 </ul> -->
-<div class="flexslider">
-  <ul class="slides">
-    <li>
-      <img src="<?php echo base_url('static/img/karakum-0.jpg'); ?>" />
-    </li>
-    <li>
-      <img src="<?php echo base_url('static/img/karakum-1.jpg'); ?>" />
-    </li>
-    <li>
-      <img src="<?php echo base_url('static/img/karakum-2.jpg'); ?>" />
-    </li>
-    <li>
-      <img src="<?php echo base_url('static/img/karakum-3.jpg'); ?>" />
-    </li>
-  </ul>
+<div class="margin-bottom-10">
+    <div class="flexslider">
+      <ul class="slides">
+        <li>
+          <img src="<?php echo base_url('static/img/karakum-0.jpg'); ?>" />
+        </li>
+        <li>
+          <img src="<?php echo base_url('static/img/karakum-1.jpg'); ?>" />
+        </li>
+        <li>
+          <img src="<?php echo base_url('static/img/karakum-2.jpg'); ?>" />
+        </li>
+        <li>
+          <img src="<?php echo base_url('static/img/karakum-3.jpg'); ?>" />
+        </li>
+      </ul>
+    </div>
 </div>
     <!--=== End Collection Banner ===-->
 
